@@ -18,7 +18,7 @@ Vorlage: Traffic-Playbook aus `Claude-SEO.md` (Obsidian-Vault, `04_Ressourcen/AI
 - **Sprache:** alle Reports/Audits auf Deutsch
 - **Python:** immer `~/.claude/skills/seo/.venv/bin/python` (System-Python hat kein `requests`)
 - Neue Dateien nach dem Erstellen hier unter der jeweiligen Phase verlinken
-- **👥 = Aufgabe für Mitarbeitende** (Inhalte in Squarespace). Alles ohne 👥 erledigt Haui. Einstieg für Mitarbeitende: [README.md](README.md)
+- **👥 = Aufgabe für Mitarbeitende** (Inhalte in Squarespace). Jede 👥-Aufgabe verlinkt direkt auf ihre Schritt-für-Schritt-Anleitung. Alles ohne 👥 erledigt Haui. Einstieg für Mitarbeitende: [README.md](README.md)
 
 ## Übersicht
 
@@ -56,19 +56,20 @@ Einmalig. Ergebnis: Credential-Tier 1 (API-Key + Service Account mit GSC-Zugriff
 - [x] `/seo drift baseline https://www.kinderhilfekapstadt.com/` — Baseline #1, 2026-09-20 09:07 UTC
 
 **Fixes — Critical**
-- [ ] 👥 Meta-Descriptions + SEO-Titel eintragen (Audit #1, #3) → Texte in [phase-0_report-pagespeed](phase-0_report-pagespeed-2026-09-20.md); Pflicht: `/`, `/ueberuns`, `/spenden`
-- [ ] 👥 Eigenes H1 auf 15 Seiten setzen (Audit #2)
-- [ ] 👥 Seite „Transparenz / Jahresbericht" veröffentlichen (Audit #7)
+- [ ] 👥 Meta-Descriptions + SEO-Titel eintragen (Audit #1, #3); Pflicht: `/`, `/ueberuns`, `/spenden` → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-1-meta-descriptions-und-seo-titel)**
+- [ ] 👥 Eigenes H1 auf 15 Seiten setzen (Audit #2) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-2-hauptüberschrift-h1-auf-15-seiten)**
+- [ ] 👥 Seite „Transparenz / Jahresbericht" veröffentlichen (Audit #7) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-3-seite-transparenz-und-jahresbericht)**
 
 **Fixes — High**
 - [ ] NGO- + Breadcrumb-Schema per Code-Injection einfügen (Audit #5) → Code im Audit unter „Zum direkten Einfügen"
-- [ ] 👥 „Spenden"-Button im Mobile-Header (Audit #9)
-- [ ] 👥 `/spenden`: drei Rechtsträger erklären, Bankdaten nach oben, „Standart" → „Standard" (Audit #6)
-- [ ] 👥 Wirkungsfakten auf den Projektseiten, 500+ Wörter (Audit #10)
+- [ ] 👥 „Spenden"-Button im Mobile-Header (Audit #9) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-4-spenden-button-auf-dem-handy)**
+- [ ] 👥 `/spenden`: drei Rechtsträger erklären, Bankdaten nach oben, „Standart" → „Standard" (Audit #6) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-5-spenden-seite-verständlicher-machen)**
+- [ ] 👥 Wirkungsfakten auf den Projektseiten, 500+ Wörter (Audit #10) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-6-wirkungsfakten-auf-den-projektseiten)**
 - [ ] Englisch-Entscheidung Weglot: Subdirectory mit hreflang **oder** `auto_switch` aus (Audit #11)
 - [ ] Startseiten-Video ersetzen, reCAPTCHA von der Startseite entfernen → gehört inhaltlich zu Phase 2
 
 **Fixes — bereits ausgearbeitet (Medium, aber 15 Minuten)**
+- [ ] 👥 Kleine Textkorrekturen: „Click Here", Tippfehler, dritte Trustee, widersprüchliche Zahlen (Audit #15, #18) → **[Anleitung](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-7-kleine-textkorrekturen)**
 - [ ] 4 Blog-Slugs umbenennen + 301 (Audit #4) → [phase-1_fix-blog-url-slugs-2026-09-20.md](phase-1_fix-blog-url-slugs-2026-09-20.md)
 
 **Abschluss**
@@ -76,6 +77,7 @@ Einmalig. Ergebnis: Credential-Tier 1 (API-Key + Service Account mit GSC-Zugriff
 
 **Dateien**
 - [phase-1_audit-gesamt-2026-09-20.md](phase-1_audit-gesamt-2026-09-20.md) — Vollständiger Audit: Befunde, Synthese, Aktionsplan (15 Punkte), Schema-Code zum Einfügen
+- [phase-1_fix-team-aufgaben-2026-09-20.md](phase-1_fix-team-aufgaben-2026-09-20.md) — 👥 **Schritt-für-Schritt-Anleitungen für alle Team-Aufgaben**, inkl. fertiger Texte zum Kopieren
 - [phase-1_fix-blog-url-slugs-2026-09-20.md](phase-1_fix-blog-url-slugs-2026-09-20.md) — Schritt-für-Schritt-Anleitung Blog-URLs
 - [phase-1_screenshots/](phase-1_screenshots/) — Desktop/Mobile-Screenshots von Startseite, Spenden, Projekte
 - [phase-1_daten-crawl-2026-09-20.json](phase-1_daten-crawl-2026-09-20.json) — Crawl-Ergebnisse aller 28 URLs

@@ -22,52 +22,17 @@ Hier liegt alles rund um die Suchmaschinen-Optimierung unserer Website: der Plan
 - ☑ Kästchen mit Haken = erledigt
 - **👥 = Aufgabe für dich.** Alles ohne 👥 erledigt Haui.
 
-### 2. Dem Link in der Aufgabe folgen
+### 2. Auf «Anleitung» klicken
 
-Bei jeder Aufgabe steht ein Link zum Dokument mit den Details. Die Texte sind **fertig vorbereitet** — du musst nichts selbst formulieren, nur kopieren und einfügen.
-
-Die zwei wichtigsten Stellen:
-
-- **Fertige Meta-Descriptions und SEO-Titel für alle Seiten:**
-  [phase-0_report-pagespeed → «Meta-Descriptions zum Eintragen in Squarespace»](phase-0_report-pagespeed-2026-09-20.md#meta-descriptions-zum-eintragen-in-squarespace-maßnahme-1) (im Dokument weit unten)
-- **Alle Aufgaben mit Begründung:**
-  [phase-1_audit-gesamt → «Aktionsplan»](phase-1_audit-gesamt-2026-09-20.md#aktionsplan). Die Nummern im Plan («Audit #1», «Audit #6» …) beziehen sich auf diese Tabelle.
+Hinter jeder 👥-Aufgabe steht ein Link **Anleitung**. Er führt direkt zur richtigen Stelle in **[phase-1_fix-team-aufgaben-2026-09-20.md](phase-1_fix-team-aufgaben-2026-09-20.md)** — dort steht Schritt für Schritt, was zu tun ist, inklusive **fertiger Texte zum Kopieren**. Mehr musst du nicht lesen.
 
 ### 3. In Squarespace umsetzen, prüfen, melden
 
-1. In Squarespace einloggen und die Änderung machen (Anleitungen unten).
+1. In Squarespace einloggen und die Änderung gemäss Anleitung machen.
 2. **Speichern**, dann die Seite in einem neuen Browser-Tab öffnen und kontrollieren, ob alles normal aussieht.
 3. **Haui kurz Bescheid geben**, welche Aufgabe auf welchen Seiten erledigt ist. Haui hakt sie im Plan ab.
 
 > Bitte die Kästchen im Plan nicht selbst abhaken — Haui bearbeitet die Datei parallel, und gleichzeitige Änderungen kommen sich in die Quere.
-
-## Anleitungen für Squarespace
-
-### Meta-Description und SEO-Titel eintragen
-
-Die Meta-Description ist der kurze Beschreibungstext, der bei Google unter dem blauen Link steht.
-
-1. Links im Menü **Seiten** öffnen.
-2. Mit der Maus über die gewünschte Seite fahren → **Zahnrad** ⚙ anklicken.
-3. Reiter **SEO** wählen.
-4. Text aus dem Report kopieren und bei **SEO-Beschreibung** einfügen. Den **SEO-Titel** im selben Fenster eintragen.
-5. **Speichern**.
-
-Die Texte sind auf die richtige Länge zugeschnitten (ca. 140–155 Zeichen). Bitte **1:1 übernehmen** — längere Texte schneidet Google ab.
-
-### Hauptüberschrift (H1) setzen
-
-Jede Seite braucht genau **eine** Hauptüberschrift, die sagt, worum es auf der Seite geht (z. B. «Baphumelele – Kinderheim in Khayelitsha»).
-
-1. Seite öffnen → **Bearbeiten**.
-2. Den obersten Titel-Text markieren.
-3. In der Format-Leiste **Überschrift 1** wählen.
-4. Kontrollieren, dass sonst nichts auf der Seite als «Überschrift 1» formatiert ist — weitere Titel sind **Überschrift 2** oder **3**.
-5. **Speichern**.
-
-### Texte ergänzen oder korrigieren
-
-Seite öffnen → **Bearbeiten** → Textblock anklicken → ändern → **Speichern**. Was genau wo stehen soll, steht in der jeweiligen Aufgabe im Audit.
 
 ## Bitte beachten
 
@@ -86,8 +51,9 @@ Oben auf dieser Seite siehst du die Dateiliste. Ein Klick öffnet eine Datei, mi
 | Datei | Was ist das? | Für dich? |
 |---|---|---|
 | `00_seo-plan.md` | Der Plan mit allen Aufgaben | **Ja — hier starten** |
-| `phase-…_report-….md` / `…_audit-….md` | Analysen mit Begründungen und fertigen Texten | Ja, über die Links im Plan |
-| `phase-…_fix-….md` | Schritt-für-Schritt-Anleitungen | Nur wenn im Plan mit 👥 markiert |
+| `phase-…_report-….md` / `…_audit-….md` | Analysen und Hintergründe | Bei Interesse |
+| `phase-1_fix-team-aufgaben-2026-09-20.md` | **Deine Schritt-für-Schritt-Anleitungen** | **Ja** |
+| andere `phase-…_fix-….md` | Technische Anleitungen für Haui | Nein |
 | `….pdf` | Reports als PDF zum Lesen oder Weitergeben | Bei Interesse |
 | `phase-1_screenshots/` | Bildschirmfotos der Website zum Zeitpunkt der Analyse | Bei Interesse |
 | `….json` | Rohdaten der Messungen | Nein, ignorieren |

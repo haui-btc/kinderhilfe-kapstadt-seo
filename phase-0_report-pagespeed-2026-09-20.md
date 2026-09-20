@@ -98,6 +98,8 @@ Auf Squarespace sind Core-CSS/JS nicht editierbar — der Hebel liegt bei **Thir
 
 ## Meta-Descriptions zum Eintragen in Squarespace (Maßnahme #1)
 
+> 👥 Fürs Team aufbereitet (gleiche Texte, mit Klick-Anleitung): [phase-1_fix-team-aufgaben-2026-09-20.md](phase-1_fix-team-aufgaben-2026-09-20.md#aufgabe-1-meta-descriptions-und-seo-titel)
+
 **Wo:** Seiten → Zahnrad neben der jeweiligen Seite → **SEO** → „SEO-Beschreibung" (füllt auch `og:description` für WhatsApp/Facebook-Vorschau). SEO-Titel im selben Dialog.
 **Hinweise:** „du"-Ansprache und Schweizer Schreibweise (ss statt ß) wie auf der Website. Alle Fakten stammen von der jeweiligen Seite. Unter Marketing → SEO-Darstellung prüfen, dass der Site-Name nicht doppelt an den Titel angehängt wird.
 
