@@ -1,0 +1,2603 @@
+{
+  "url": "https://www.kinderhilfekapstadt.com/",
+  "psi": {
+    "mobile": {
+      "url": "https://www.kinderhilfekapstadt.com/",
+      "strategy": "mobile",
+      "lighthouse_scores": {
+        "performance": 55,
+        "accessibility": 88,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 13441.506196196187,
+          "display": "13.4\u00a0s",
+          "score": 0
+        },
+        "largest-contentful-paint": {
+          "value": 18880.00625209885,
+          "display": "18.9\u00a0s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 44.5,
+          "display": "40\u00a0ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 13441.506196196187,
+          "display": "13.4\u00a0s",
+          "score": 0.02
+        },
+        "interactive": {
+          "value": 19065.556252098853,
+          "display": "19.1\u00a0s",
+          "score": 0.03
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "savings_ms": 7270,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "savings_ms": 1050,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoid enormous network payloads",
+          "display": "Total size was 3,158\u00a0KiB",
+          "score": 0.5,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimize main-thread work",
+          "display": "2.7\u00a0s",
+          "score": 0,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "JavaScript execution time",
+          "display": "1.3\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "",
+          "score": null,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "10 long tasks found",
+          "score": 1,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "Est savings of 982\u00a0KiB",
+          "score": 0,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 164\u00a0KiB",
+          "score": 0,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "display": "",
+          "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load."
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "display": "Est savings of 119\u00a0KiB",
+          "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0,
+          "display": "Est savings of 66\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "score": 0,
+          "display": "",
+          "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.12/aria-required-children)."
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0,
+          "display": "13.4\u00a0s",
+          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/)."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "display": "",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.12/heading-order)."
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0,
+          "display": "",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0,
+          "display": "18.9\u00a0s",
+          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)"
+        },
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "score": 0,
+          "display": "",
+          "description": "There are certain cases where the semantic role of an element with `role=\"none\"` or `role=\"presentation\"` does not resolve to none or presentation. To ensure the element remains removed from the accessibility tree, you should not add any global ARIA attributes to the element or make it focusable. [Learn more about presentation role conflict](https://dequeuniversity.com/rules/axe/4.12/presentation-role-conflict)."
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "display": "",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.12/link-name)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "display": "",
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimize main-thread work",
+          "score": 0,
+          "display": "2.7\u00a0s",
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "display": "Est savings of 107\u00a0KiB",
+          "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)"
+        },
+        {
+          "id": "lcp-breakdown-insight",
+          "title": "LCP breakdown",
+          "score": 0,
+          "display": "",
+          "description": "Each [subpart has specific improvement strategies](https://developer.chrome.com/docs/performance/insights/lcp-breakdown). Ideally, most of the LCP time should be spent on loading the resources, not within delays."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "display": "Est savings of 2,930\u00a0ms",
+          "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": "",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.12/color-contrast)."
+        },
+        {
+          "id": "speed-index",
+          "title": "Speed Index",
+          "score": 0.02,
+          "display": "13.4\u00a0s",
+          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/)."
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.03,
+          "display": "19.1\u00a0s",
+          "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/)."
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "score": 0.5,
+          "display": "",
+          "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)"
+        },
+        {
+          "id": "total-byte-weight",
+          "title": "Avoid enormous network payloads",
+          "score": 0.5,
+          "display": "Total size was 3,158\u00a0KiB",
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        }
+      ],
+      "passed_audits_count": 82,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0,
+          "pass": false
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "legacy-javascript-insight": {
+          "title": "Legacy JavaScript",
+          "headings": [
+            "url",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+              "wastedBytes": 30668
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/39188.js",
+              "wastedBytes": 21349
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/64023.js",
+              "wastedBytes": 14108
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-7a56d1e4a519b700-min.de-DE.js",
+              "wastedBytes": 13949
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/39882.js",
+              "wastedBytes": 13454
+            }
+          ],
+          "total_items": 8
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "cacheLifetimeMs": 1800000,
+              "totalBytes": 75171
+            },
+            {
+              "url": "https://assets.mailerlite.com/js/universal.js",
+              "cacheLifetimeMs": 432000000,
+              "totalBytes": 14854
+            },
+            {
+              "url": "https://assets.mailerlite.com/jsonp/1845291/forms?callback=ml.fn.renderPopupsAndPromotions",
+              "cacheLifetimeMs": 180000,
+              "totalBytes": 539
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 3001
+            },
+            {
+              "url": "https://assets.mailerlite.com/css/universal.css",
+              "cacheLifetimeMs": 432000000,
+              "totalBytes": 843
+            }
+          ],
+          "total_items": 5
+        },
+        "aria-required-children": {
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<div data-wg-notranslate=\"true\" tabindex=\"-1\" role=\"listbox\" aria-label=\"Language Switcher: English\" aria-activedescendant=\"weglot-language-en\" class=\"weglot_switcher underline_edge\" styl"
+            }
+          ],
+          "total_items": 1
+        },
+        "third-parties-insight": {
+          "title": "3rd parties",
+          "headings": [
+            "entity",
+            "transferSize",
+            "mainThreadTime"
+          ],
+          "items": [
+            {
+              "entity": "Squarespace",
+              "transferSize": 1553715,
+              "mainThreadTime": 543.781999707222
+            },
+            {
+              "entity": "Google CDN",
+              "transferSize": 755228,
+              "mainThreadTime": 238.39300072193146
+            },
+            {
+              "entity": "weglot.com",
+              "transferSize": 112923,
+              "mainThreadTime": 74.47299826145172
+            },
+            {
+              "entity": "Other Google APIs/SDKs",
+              "transferSize": 31691,
+              "mainThreadTime": 29.895999908447266
+            },
+            {
+              "entity": "sqspcdn.com",
+              "transferSize": 102774,
+              "mainThreadTime": 13.488999962806702
+            }
+          ],
+          "total_items": 9
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://www.gstatic.com",
+              "serverResponseTime": 8
+            },
+            {
+              "origin": "https://video.squarespace-cdn.com",
+              "serverResponseTime": 6
+            },
+            {
+              "origin": "https://cdn.weglot.com",
+              "serverResponseTime": 1.5
+            },
+            {
+              "origin": "https://www.kinderhilfekapstadt.com",
+              "serverResponseTime": 1
+            },
+            {
+              "origin": "https://assets.squarespace.com",
+              "serverResponseTime": 1
+            }
+          ],
+          "total_items": 13
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "headings": [
+            "url",
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "startTime": 9752.00695049199,
+              "duration": 120
+            },
+            {
+              "url": "_lighthouse-eval.js",
+              "startTime": 1091.0069504919895,
+              "duration": 88
+            },
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "startTime": 4256.522437139637,
+              "duration": 78
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "startTime": 17911.50625209885,
+              "duration": 76
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js",
+              "startTime": 9872.00695049199,
+              "duration": 74
+            }
+          ],
+          "total_items": 10
+        },
+        "heading-order": {
+          "title": "Heading elements are not in a sequentially-descending order",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.sqs-block-content > div.sqs-text-block-container > div.sqs-html-content > h3.preFade', 'nodeLabel': '25 Years of Opportunities for Children in South Africa', 'snippet': '<h3 style=\"w"
+            }
+          ],
+          "total_items": 1
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">', 'selector': 'head > meta', 'lhId': 'page-13-META', 'nodeLabel': 'head > meta', 'path': '1,HTML,0,HEAD,4,META', 'type"
+            }
+          ],
+          "total_items": 1
+        },
+        "unused-css-rules": {
+          "title": "Reduce unused CSS",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://static1.squarespace.com/static/versioned-site-css/69e7b73fa7a847762363eed5/51/5c5a519771c10ba3470d8101/69e7b740a7a847762363eee7/1826/site.css?nocustom=true",
+              "totalBytes": 112025,
+              "wastedBytes": 89987
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles__ltr.css",
+              "totalBytes": 42261,
+              "wastedBytes": 40740
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1789043197505-DAFJD75BBCOTLJ5Z5UA4/static.css",
+              "totalBytes": 39856,
+              "wastedBytes": 36985
+            }
+          ],
+          "total_items": 3
+        },
+        "unsized-images": {
+          "title": "Image elements do not have explicit `width` and `height`",
+          "headings": [
+            "node",
+            "url"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<img elementtiming=\"nbf-header-logo-desktop\" src=\"//images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/f1269460-\u2026\" alt=\"The Kinder Hilfe Kapstadt Trust\" style=\"display:block\" ",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/f1269460-b875-48bf-9d0a-5092446f067f/KKT_LOGO_v7%404x.png?format=1500w"
+            }
+          ],
+          "total_items": 1
+        },
+        "bootup-time": {
+          "title": "JavaScript execution time",
+          "headings": [
+            "url",
+            "total",
+            "scripting",
+            "scriptParseCompile"
+          ],
+          "items": [
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "total": 647.7275999999986,
+              "scripting": 247.98239999999828,
+              "scriptParseCompile": 58.248000000000005
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "total": 504.5243999999997,
+              "scripting": 370.72319999999974,
+              "scriptParseCompile": 103.39560000000002
+            },
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "total": 365.69039999999967,
+              "scripting": 6.106799999999996,
+              "scriptParseCompile": 3.509999999999996
+            },
+            {
+              "url": "Unattributable",
+              "total": 160.85640000000058,
+              "scripting": 3.2676000000000003,
+              "scriptParseCompile": 0
+            },
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "total": 128.46840000000205,
+              "scripting": 101.96040000000205,
+              "scriptParseCompile": 10.7472
+            }
+          ],
+          "total_items": 10
+        },
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://video.squarespace-cdn.com",
+              "rtt": 3.0329625000000004
+            },
+            {
+              "origin": "https://cdn-api-weglot.com",
+              "rtt": 1.4912624999999997
+            },
+            {
+              "origin": "https://definitions.sqspcdn.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.google.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://assets.mailerlite.com",
+              "rtt": 0.017575519634134354
+            }
+          ],
+          "total_items": 13
+        },
+        "js-libraries": {
+          "title": "Detected JavaScript libraries",
+          "headings": [
+            "name",
+            "version"
+          ],
+          "items": [
+            {
+              "name": "YUI 3",
+              "version": "3.17.2"
+            },
+            {
+              "name": "Preact",
+              "version": "10"
+            },
+            {
+              "name": "Modernizr",
+              "version": "2.8.3"
+            },
+            {
+              "name": "core-js",
+              "version": "core-js-global@3.26.0; core-js-global@3.26.0; core-js-pure@2.6.12; core-js-global@2.6.12; core-js-pure@2.6.12"
+            }
+          ],
+          "total_items": 4
+        },
+        "presentation-role-conflict": {
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'DE', 'type': 'node', 'boundingRect': {'bottom': 808, 'width': 19, 'height': 20, 'top': 788, 'right': 343, 'left': 323}, 'path': '1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,0,DIV,0,A', 'lhId': '1-0"
+            },
+            {
+              "node": "{'lhId': '1-1-A', 'nodeLabel': 'EN', 'type': 'node', 'explanation': 'Fix all of the following:\\n  Element is not focusable.', 'path': '1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,DIV,0,A', 'boundingRect': {'lef"
+            }
+          ],
+          "total_items": 2
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 353516,
+              "wastedBytes": 189558
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 353516,
+              "wastedBytes": 186563
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "totalBytes": 258816,
+              "wastedBytes": 143859
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/3155.1d160fed13c316843712.js",
+              "totalBytes": 168022,
+              "wastedBytes": 133833
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-7a56d1e4a519b700-min.de-DE.js",
+              "totalBytes": 236734,
+              "wastedBytes": 99016
+            }
+          ],
+          "total_items": 10
+        },
+        "link-name": {
+          "title": "Links do not have a discernible name",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'lhId': '1-7-A', 'selector': 'div.sqs-text-block-container > div.sqs-html-content > p.preFade > a', 'explanation': 'Fix all of the following:\\n  Element is in tab order and does not have accessible t"
+            }
+          ],
+          "total_items": 1
+        },
+        "errors-in-console": {
+          "title": "Browser errors were logged to the console",
+          "headings": [
+            "sourceLocation",
+            "description"
+          ],
+          "items": [
+            {
+              "sourceLocation": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv&co=aHR0cHM6Ly93d3cua2luZGVyaGlsZmVrYXBzdGFkdC5jb206NDQz&hl=en&v=zqB-6Xpbd3lCIvi7Tr2D0pob&size=invisible&anchor-ms=20000&execute-ms=30000&cb=9abk4h3c3m2i",
+              "description": "requestStorageAccess: Permission denied."
+            }
+          ],
+          "total_items": 1
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimize main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 1168.5383999999503
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 476.5811999999994
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 427.91039999999975
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 394.0548
+            },
+            {
+              "groupLabel": "Garbage Collection",
+              "duration": 109.42320000000001
+            }
+          ],
+          "total_items": 7
+        },
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/ua-client-hints",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Limited Availability', 'status': 'limited'}",
+              "source": "https://www.kinderhilfekapstadt.com/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/sizes-auto",
+              "displayStatus": "{'displayString': 'Limited Availability', 'type': 'baseline-status', 'status': 'limited'}",
+              "source": "https://www.kinderhilfekapstadt.com/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/long-animation-frames",
+              "displayStatus": "{'status': 'limited', 'type': 'baseline-status', 'displayString': 'Limited Availability'}",
+              "source": "https://assets.squarespace.com/universal/scripts-compressed/performance-5d56b04bdc07dc09-min.de-DE.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/beforeunload",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Limited Availability', 'status': 'limited'}",
+              "source": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/canvas-2d-alpha",
+              "displayStatus": "{'status': 'limited', 'type': 'baseline-status', 'displayString': 'Limited Availability'}",
+              "source": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js"
+            }
+          ],
+          "total_items": 51
+        },
+        "non-composited-animations": {
+          "title": "Avoid non-composited animations",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.video-player__loading-screen > div.video-player__loading-indicator > svg.loading-indicator__spinner > circle.loading-indicator__path', 'nodeLabel': 'div.video-player__loading-screen "
+            },
+            {
+              "node": "{'boundingRect': {'bottom': 441, 'left': 191, 'width': 31, 'height': 31, 'right': 221, 'top': 410}, 'nodeLabel': 'div.video-player__loading-screen > div.video-player__loading-indicator > svg.loading-i"
+            }
+          ],
+          "total_items": 2
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "responseTime": 64
+            }
+          ],
+          "total_items": 1
+        },
+        "valid-source-maps": {
+          "title": "Page has valid source maps",
+          "headings": [
+            "scriptUrl",
+            "sourceMapUrl"
+          ],
+          "items": [
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/video-background-native.8b6f9358b461fc0c3f1b.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/d0bf8022f822ca77523b19e461147081/scripts/video-background-native.8b6f9358b461fc0c3f1b.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/user-items-list-carousel.bb92046e1041e4a78dd6.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/fd0ce3088860fd2c4f01b2575ddfcf02/scripts/user-items-list-carousel.bb92046e1041e4a78dd6.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/23bb6e7991cba4a5b36194776633d6b7/scripts/site-bundle.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/floating-cart.333bd5aee1885e7af603.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/ad4b59f7b03ef151a5be6b26943e7aa7/scripts/floating-cart.333bd5aee1885e7af603.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/7056.57868aba90d9d9f6c5e7.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/8386cd96d287b9fd514b7304abe46f3e/scripts/7056.57868aba90d9d9f6c5e7.js.map"
+            }
+          ],
+          "total_items": 37
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "headings": [
+            "node",
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.header-title > div.header-title-logo > a.preFade > img', 'snippet': '<img elementtiming=\"nbf-header-logo-desktop\" src=\"//images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/f1269460-b875-48bf-9d0a-5092446f067f/KKT_LOGO_v7%404x.png?format=1500w",
+              "totalBytes": 78190,
+              "wastedBytes": 75298
+            },
+            {
+              "node": "{'selector': 'div.fluid-image-container > div.js-content-mode-element-wrapper > div.js-content-mode-element > img', 'snippet': '<img data-stretch=\"true\" data-src=\"https://images.squarespace-cdn.com/co",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/c42bb79d-3b74-41c6-8ae6-a47b0873abc5/kinderhilfe-kapstadt-little-lambs-kindergarten-lernen.jpg?format=750w",
+              "totalBytes": 70360,
+              "wastedBytes": 34767
+            }
+          ],
+          "total_items": 2
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 95,
+              "transferSize": 3233359
+            },
+            {
+              "label": "Script",
+              "requestCount": 62,
+              "transferSize": 2317761
+            },
+            {
+              "label": "Other",
+              "requestCount": 11,
+              "transferSize": 370243
+            },
+            {
+              "label": "Stylesheet",
+              "requestCount": 14,
+              "transferSize": 221153
+            },
+            {
+              "label": "Image",
+              "requestCount": 3,
+              "transferSize": 152772
+            }
+          ],
+          "total_items": 9
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "protocol": "h2",
+              "networkRequestTime": 0.7250000238418579,
+              "networkEndTime": 230.3399999141693,
+              "transferSize": 53502,
+              "resourceSize": 364485,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+              "protocol": "h2",
+              "networkRequestTime": 244.59099996089935,
+              "networkEndTime": 269.9779999256134,
+              "transferSize": 43108,
+              "resourceSize": 117609,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-faa295ed992e9db7-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 244.6729999780655,
+              "networkEndTime": 269.39599990844727,
+              "transferSize": 2488,
+              "resourceSize": 3679,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-01b3b6ffc8f20fd0-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 486.6179999113083,
+              "networkEndTime": 499.05799996852875,
+              "transferSize": 19063,
+              "resourceSize": 50799,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-a830cd3c8841156f-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 519.4609999656677,
+              "networkEndTime": 574.8610000610352,
+              "transferSize": 62927,
+              "resourceSize": 857713,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            }
+          ],
+          "total_items": 100
+        },
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 233.268,
+              "duration": 13.878
+            },
+            {
+              "startTime": 484.824,
+              "duration": 13.088
+            },
+            {
+              "startTime": 499.447,
+              "duration": 19.615
+            },
+            {
+              "startTime": 519.538,
+              "duration": 22.078
+            },
+            {
+              "startTime": 546.331,
+              "duration": 9.719
+            }
+          ],
+          "total_items": 68
+        },
+        "total-byte-weight": {
+          "title": "Avoid enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "totalBytes": 259565
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-7a56d1e4a519b700-min.de-DE.js",
+              "totalBytes": 237412
+            }
+          ],
+          "total_items": 10
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No CSP found in enforcement mode",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`max-age` is too low",
+              "directive": "max-age",
+              "severity": "High"
+            },
+            {
+              "description": "No `includeSubDomains` directive found",
+              "directive": "includeSubDomains",
+              "severity": "Medium"
+            },
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 3
+        },
+        "video-caption": {
+          "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.sqs-video-background-native__video-player > div.plyr > div.plyr__video-wrapper > video', 'lhId': '1-10-VIDEO', 'snippet': '<video playsinline=\"true\" webkit-playsinline=\"\" loop=\"\" mut"
+            }
+          ],
+          "total_items": 1
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedMs"
+          ],
+          "items": [
+            {
+              "url": "https://static1.squarespace.com/static/versioned-site-css/69e7b73fa7a847762363eed5/51/5c5a519771c10ba3470d8101/69e7b740a7a847762363eee7/1826/site.css?nocustom=true",
+              "totalBytes": 112686,
+              "wastedMs": 5551
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1789043197505-DAFJD75BBCOTLJ5Z5UA4/static.css",
+              "totalBytes": 40529,
+              "wastedMs": 2701
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/styles-compressed/user-account-core-d41f57a422ad300c-min.de-DE.css",
+              "totalBytes": 1427,
+              "wastedMs": 751
+            },
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "totalBytes": 75171,
+              "wastedMs": 3902
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.form/21a7fe74-b0e8-4cfe-9fbc-013c51202455_1093/website.components.form.styles.css",
+              "totalBytes": 2588,
+              "wastedMs": 751
+            }
+          ],
+          "total_items": 9
+        },
+        "aria-allowed-role": {
+          "title": "Uses ARIA roles only on compatible elements",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'DE', 'snippet': '<a tabindex=\"0\" href=\"#\" target=\"_self\" role=\"none\" id=\"weglot-language-de\" lang=\"de\" style=\"color: rgb(0, 0, 0); opacity: 0.4;\">', 'explanation': 'Fix any of the follo"
+            },
+            {
+              "node": "{'nodeLabel': 'EN', 'selector': 'div.weglot_switcher > div.wg-languages-list > div.language-option > a#weglot-language-en', 'type': 'node', 'path': '1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,DIV,0,A', 'boundi"
+            }
+          ],
+          "total_items": 2
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'type': 'numeric', 'granularity': 1, 'value': 960}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'snippet': '<span class=\"description required\">', 'selector': 'label.Jr20Ov74P4k3VW22 > div.EdVesee9jAEAfynd > div.caption-text > span.description', 'type': 'node', 'path': '1,HTML,1,BODY,0,DIV,2,MAI",
+              "value": "{'type': 'numeric', 'value': 23, 'granularity': 1}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'lhId': 'page-14-svg', 'selector': 'body#collection-69e7b742a7a847762363f04a > div#siteWrapper > header#header > svg', 'boundingRect': {'right': 0, 'bottom': 0, 'top': 0, 'height': 0, 'left': 0, 'wid",
+              "value": "{'value': 16, 'granularity': 1, 'type': 'numeric'}"
+            }
+          ],
+          "total_items": 3
+        },
+        "color-contrast": {
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'lhId': '1-4-SPAN', 'selector': 'div.form-button-wrapper > button.button > span.LiqISyL3YVgi1SgG > span', 'type': 'node', 'path': '1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,SECTION,6,SECTION,1,DIV,0,DIV"
+            }
+          ],
+          "total_items": 1
+        }
+      },
+      "analysis_timestamp": "2026-09-20T08:21:41.231Z",
+      "error": null
+    },
+    "desktop": {
+      "url": "https://www.kinderhilfekapstadt.com/",
+      "strategy": "desktop",
+      "lighthouse_scores": {
+        "performance": 59,
+        "accessibility": 88,
+        "best-practices": 96,
+        "seo": 92
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 942.0155261487037,
+          "display": "0.9\u00a0s",
+          "score": 0.89
+        },
+        "largest-contentful-paint": {
+          "value": 2490.0406976708455,
+          "display": "2.5\u00a0s",
+          "score": 0.47
+        },
+        "total-blocking-time": {
+          "value": 542.9976529869386,
+          "display": "540\u00a0ms",
+          "score": 0.25
+        },
+        "cumulative-layout-shift": {
+          "value": 0.002076020566793898,
+          "display": "0.002",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 2023.1186193928863,
+          "display": "2.0\u00a0s",
+          "score": 0.61
+        },
+        "interactive": {
+          "value": 4324.136205347409,
+          "display": "4.3\u00a0s",
+          "score": 0.53
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "savings_ms": 440,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "savings_ms": 80,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoid enormous network payloads",
+          "display": "Total size was 3,150\u00a0KiB",
+          "score": 0.5,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimize main-thread work",
+          "display": "3.7\u00a0s",
+          "score": 0,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "Reduce JavaScript execution time",
+          "display": "1.8\u00a0s",
+          "score": 0,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "1 layout shift found",
+          "score": 1,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "14 long tasks found",
+          "score": 1,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "Est savings of 944\u00a0KiB",
+          "score": 0,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "Est savings of 163\u00a0KiB",
+          "score": 0,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0,
+          "display": "Est savings of 71\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        },
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "score": 0,
+          "display": "",
+          "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.12/aria-required-children)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": "",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.12/color-contrast)."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "display": "Est savings of 290\u00a0ms",
+          "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path."
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "display": "",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.12/heading-order)."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "display": "",
+          "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "display": "Est savings of 152\u00a0KiB",
+          "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)"
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimize main-thread work",
+          "score": 0,
+          "display": "3.7\u00a0s",
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0,
+          "display": "",
+          "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more about the meta description](https://developer.chrome.com/docs/lighthouse/seo/meta-description/)."
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "score": 0,
+          "display": "",
+          "description": "Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. [Learn more about this errors in console diagnostic audit](https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console/)"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "display": "",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.12/link-name)."
+        },
+        {
+          "id": "bootup-time",
+          "title": "Reduce JavaScript execution time",
+          "score": 0,
+          "display": "1.8\u00a0s",
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "score": 0,
+          "display": "",
+          "description": "A forced reflow occurs when JavaScript queries geometric properties (such as `offsetWidth`) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow) and possible mitigations."
+        },
+        {
+          "id": "legacy-javascript-insight",
+          "title": "Legacy JavaScript",
+          "score": 0,
+          "display": "Est savings of 117\u00a0KiB",
+          "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)"
+        },
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "score": 0,
+          "display": "",
+          "description": "There are certain cases where the semantic role of an element with `role=\"none\"` or `role=\"presentation\"` does not resolve to none or presentation. To ensure the element remains removed from the accessibility tree, you should not add any global ARIA attributes to the element or make it focusable. [Learn more about presentation role conflict](https://dequeuniversity.com/rules/axe/4.12/presentation-role-conflict)."
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.25,
+          "display": "540\u00a0ms",
+          "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/)."
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.47,
+          "display": "2.5\u00a0s",
+          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)"
+        },
+        {
+          "id": "total-byte-weight",
+          "title": "Avoid enormous network payloads",
+          "score": 0.5,
+          "display": "Total size was 3,150\u00a0KiB",
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "font-display-insight",
+          "title": "Font display",
+          "score": 0.5,
+          "display": "Est savings of 10\u00a0ms",
+          "description": "Consider setting [`font-display`](https://developer.chrome.com/docs/performance/insights/font-display) to `swap` or `optional` to ensure text is consistently visible. `swap` can be further optimized to mitigate layout shifts with [font metric overrides](https://developer.chrome.com/blog/font-fallbacks)."
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "score": 0.5,
+          "display": "",
+          "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.53,
+          "display": "4.3\u00a0s",
+          "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/)."
+        },
+        {
+          "id": "speed-index",
+          "title": "Speed Index",
+          "score": 0.61,
+          "display": "2.0\u00a0s",
+          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/)."
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.76,
+          "display": "170\u00a0ms",
+          "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0.89,
+          "display": "0.9\u00a0s",
+          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/)."
+        }
+      ],
+      "passed_audits_count": 80,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "score": 0,
+          "pass": false
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "aria-required-children",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "presentation-role-conflict",
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://video.squarespace-cdn.com",
+              "rtt": 2.256330000000001
+            },
+            {
+              "origin": "https://definitions.sqspcdn.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.google.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://cdn-api-weglot.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://assets.mailerlite.com",
+              "rtt": 0.052825736950972146
+            }
+          ],
+          "total_items": 13
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'type': 'numeric', 'granularity': 1, 'value': 960}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'snippet': '<span class=\"description required\">', 'selector': 'label.Jr20Ov74P4k3VW22 > div.EdVesee9jAEAfynd > div.caption-text > span.description', 'nodeLabel': '(required)', 'path': '1,HTML,1,BODY,",
+              "value": "{'value': 23, 'type': 'numeric', 'granularity': 1}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'snippet': '<svg style=\"display:none\" viewBox=\"0 0 22 22\" xmlns=\"http://www.w3.org/2000/svg\">', 'boundingRect': {'right': 0, 'width': 0, 'left': 0, 'height': 0, 'bottom': 0, 'top': 0}, 'selector': 'b",
+              "value": "{'type': 'numeric', 'granularity': 1, 'value': 16}"
+            }
+          ],
+          "total_items": 3
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "protocol": "h2",
+              "networkRequestTime": 1.3170000314712524,
+              "networkEndTime": 72.46100008487701,
+              "transferSize": 53502,
+              "resourceSize": 364485,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+              "protocol": "h2",
+              "networkRequestTime": 89.8199999332428,
+              "networkEndTime": 99.21200001239777,
+              "transferSize": 43109,
+              "resourceSize": 117609,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-faa295ed992e9db7-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 90.03199994564056,
+              "networkEndTime": 98.27600002288818,
+              "transferSize": 2489,
+              "resourceSize": 3679,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-01b3b6ffc8f20fd0-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 389.4210000038147,
+              "networkEndTime": 397.68099999427795,
+              "transferSize": 19064,
+              "resourceSize": 50799,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-a830cd3c8841156f-min.de-DE.js",
+              "protocol": "h2",
+              "networkRequestTime": 414.6890000104904,
+              "networkEndTime": 429.7880001068115,
+              "transferSize": 46785,
+              "resourceSize": 857713,
+              "statusCode": 200,
+              "mimeType": "text/javascript",
+              "resourceType": "Script"
+            }
+          ],
+          "total_items": 101
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "cacheLifetimeMs": 1800000,
+              "totalBytes": 74801
+            },
+            {
+              "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/6f0dbb79-f141-4764-a8c0-7c437638b9b2/latin.woff2",
+              "cacheLifetimeMs": 131165000,
+              "totalBytes": 15271
+            },
+            {
+              "url": "https://assets.mailerlite.com/js/universal.js",
+              "cacheLifetimeMs": 432000000,
+              "totalBytes": 14853
+            },
+            {
+              "url": "https://assets.mailerlite.com/jsonp/1845291/forms?callback=ml.fn.renderPopupsAndPromotions",
+              "cacheLifetimeMs": 180000,
+              "totalBytes": 544
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 3001
+            }
+          ],
+          "total_items": 6
+        },
+        "aria-required-children": {
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'path': '1,HTML,1,BODY,4,DIV,0,DIV', 'boundingRect': {'top': 895, 'left': 1236, 'width': 79, 'bottom': 940, 'height': 45, 'right': 1315}, 'nodeLabel': 'DE\\nEN', 'type': 'node', 'lhId': '1-2-DIV', 'sn"
+            }
+          ],
+          "total_items": 1
+        },
+        "color-contrast": {
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'boundingRect': {'width': 135, 'height': 37, 'right': 1308, 'bottom': 53, 'top': 16, 'left': 1173}, 'lhId': '1-4-A', 'selector': 'div.header-display-desktop > div.header-actions > div.header-actions-"
+            },
+            {
+              "node": "{'type': 'node', 'nodeLabel': 'SEND', 'path': '1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,SECTION,6,SECTION,1,DIV,0,DIV,0,DIV,1,DIV,6,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,FORM,2,DIV,0,BUTTON,1,SPAN,0,SPAN', 'sni"
+            }
+          ],
+          "total_items": 2
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "render-blocking-insight": {
+          "title": "Render-blocking requests",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedMs"
+          ],
+          "items": [
+            {
+              "url": "https://static1.squarespace.com/static/versioned-site-css/69e7b73fa7a847762363eed5/51/5c5a519771c10ba3470d8101/69e7b740a7a847762363eee7/1826/site.css?nocustom=true",
+              "totalBytes": 112687,
+              "wastedMs": 521
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1789043197505-DAFJD75BBCOTLJ5Z5UA4/static.css",
+              "totalBytes": 40529,
+              "wastedMs": 361
+            },
+            {
+              "url": "https://cdn.weglot.com/weglot.min.js",
+              "totalBytes": 74801,
+              "wastedMs": 321
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/a775c378-4b05-4d56-a311-b3384c6a8ee0_921/website.components.html.styles.css",
+              "totalBytes": 812,
+              "wastedMs": 201
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.shape/8b8c831e-849b-4f4c-acf1-ec9c866c1ca0_1316/website.components.shape.styles.css",
+              "totalBytes": 1030,
+              "wastedMs": 201
+            }
+          ],
+          "total_items": 9
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 78.431,
+              "duration": 20.19
+            },
+            {
+              "startTime": 99.401,
+              "duration": 7.67
+            },
+            {
+              "startTime": 132.062,
+              "duration": 9.139
+            },
+            {
+              "startTime": 388.438,
+              "duration": 24.966
+            },
+            {
+              "startTime": 415.146,
+              "duration": 32.074
+            }
+          ],
+          "total_items": 106
+        },
+        "heading-order": {
+          "title": "Heading elements are not in a sequentially-descending order",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'explanation': 'Fix any of the following:\\n  Heading order invalid', 'lhId': '1-7-H3', 'selector': 'div.sqs-block-content > div.sqs-text-block-container > div.sqs-html-content > h3.preFade', 'path': "
+            }
+          ],
+          "total_items": 1
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 353516,
+              "wastedBytes": 189558
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 353516,
+              "wastedBytes": 186762
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "totalBytes": 258818,
+              "wastedBytes": 143801
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/3155.1d160fed13c316843712.js",
+              "totalBytes": 168023,
+              "wastedBytes": 133834
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/21079-0990590eb5ffcec9-min.de-DE.js",
+              "totalBytes": 158761,
+              "wastedBytes": 82045
+            }
+          ],
+          "total_items": 10
+        },
+        "identical-links-same-purpose": {
+          "title": "Identical links have the same purpose.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'path': '1,HTML,1,BODY,0,DIV,1,HEADER,2,DIV,4,DIV,2,DIV,2,DIV,3,DIV,0,DIV,0,NAV,4,DIV,0,A', 'type': 'node', 'explanation': 'Fix all of the following:\\n  Check that links have the same purpose, or are"
+            }
+          ],
+          "total_items": 1
+        },
+        "total-byte-weight": {
+          "title": "Avoid enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "totalBytes": 354513
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "totalBytes": 259564
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-7a56d1e4a519b700-min.de-DE.js",
+              "totalBytes": 192329
+            }
+          ],
+          "total_items": 10
+        },
+        "non-composited-animations": {
+          "title": "Avoid non-composited animations",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'Little Lambs Christian Daycare\\n\\nEarly childhood centre for children ages 1 to 6\u2026', 'snippet': '<ul class=\"user-items-list-carousel__slides user-items-list-carousel__slides--initial\u2026\" "
+            },
+            {
+              "node": "{'path': '1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,SECTION,0,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,svg,0,circle', 'type': 'node', 'lhId': 'page-11-circle', 'boundingRect': {'right': "
+            },
+            {
+              "node": "{'selector': 'div.video-player__loading-screen > div.video-player__loading-indicator > svg.loading-indicator__spinner > circle.loading-indicator__path', 'lhId': 'page-12-circle', 'snippet': '<circle c"
+            }
+          ],
+          "total_items": 3
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "headings": [
+            "node",
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "node": "{'boundingRect': {'left': 27, 'right': 329, 'bottom': 59, 'height': 48, 'width': 302, 'top': 11}, 'snippet': '<img elementtiming=\"nbf-header-logo-desktop\" src=\"//images.squarespace-cdn.com/content/v1/",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/f1269460-b875-48bf-9d0a-5092446f067f/KKT_LOGO_v7%404x.png?format=1500w",
+              "totalBytes": 78190,
+              "wastedBytes": 75771
+            },
+            {
+              "node": "{'lhId': 'page-1-IMG', 'nodeLabel': 'Children at the Little Lambs Kindergarten in Cape Town learn and paint together\u2026', 'boundingRect': {'left': 668, 'bottom': 2011, 'right': 1335, 'top': 937, 'height",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/c42bb79d-3b74-41c6-8ae6-a47b0873abc5/kinderhilfe-kapstadt-little-lambs-kindergarten-lernen.jpg?format=1500w",
+              "totalBytes": 77020,
+              "wastedBytes": 47828
+            },
+            {
+              "node": "{'path': '1,HTML,1,BODY,0,DIV,2,MAIN,0,ARTICLE,0,SECTION,5,SECTION,1,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG', 'selector': 'div.fluid-image-container > div.js-conte",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/58f05895-2fc5-4e47-acb8-af2c4b2630db/kinderhilfe-kapstadt-little-lambs-kindergarten-maedchen-lachen.jpg?format=750w",
+              "totalBytes": 62200,
+              "wastedBytes": 31978
+            }
+          ],
+          "total_items": 3
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No CSP found in enforcement mode",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "js-libraries": {
+          "title": "Detected JavaScript libraries",
+          "headings": [
+            "name",
+            "version"
+          ],
+          "items": [
+            {
+              "name": "YUI 3",
+              "version": "3.17.2"
+            },
+            {
+              "name": "Preact",
+              "version": "10"
+            },
+            {
+              "name": "Modernizr",
+              "version": "2.8.3"
+            },
+            {
+              "name": "core-js",
+              "version": "core-js-global@3.26.0; core-js-global@3.26.0; core-js-pure@2.6.12; core-js-global@2.6.12; core-js-pure@2.6.12"
+            }
+          ],
+          "total_items": 4
+        },
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimize main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 1498.0779999999766
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 719.9270000000004
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 641.5959999999989
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 466.512
+            },
+            {
+              "groupLabel": "Garbage Collection",
+              "duration": 188.32000000000008
+            }
+          ],
+          "total_items": 7
+        },
+        "errors-in-console": {
+          "title": "Browser errors were logged to the console",
+          "headings": [
+            "sourceLocation",
+            "description"
+          ],
+          "items": [
+            {
+              "sourceLocation": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv&co=aHR0cHM6Ly93d3cua2luZGVyaGlsZmVrYXBzdGFkdC5jb206NDQz&hl=en&v=zqB-6Xpbd3lCIvi7Tr2D0pob&size=invisible&anchor-ms=20000&execute-ms=30000&cb=vz8ukdl8ed1l",
+              "description": "requestStorageAccess: Permission denied."
+            }
+          ],
+          "total_items": 1
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "responseTime": 13
+            }
+          ],
+          "total_items": 1
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`max-age` is too low",
+              "directive": "max-age",
+              "severity": "High"
+            },
+            {
+              "description": "No `includeSubDomains` directive found",
+              "directive": "includeSubDomains",
+              "severity": "Medium"
+            },
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 3
+        },
+        "video-caption": {
+          "title": "`<video>` elements contain a `<track>` element with `[kind=\"captions\"]`",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'div.sqs-video-background-native__video-player > div.plyr > div.plyr__video-wrapper > video', 'explanation': 'Fix all of the following:\\n  Check that captions are available for the eleme"
+            }
+          ],
+          "total_items": 1
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "headings": [
+            "url",
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "startTime": 1842.0392899775225,
+              "duration": 172
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "startTime": 3770.538317659164,
+              "duration": 162
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "startTime": 4089.538317659164,
+              "duration": 154
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "startTime": 4243.538317659164,
+              "duration": 110
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js",
+              "startTime": 2059.0392899775225,
+              "duration": 98
+            }
+          ],
+          "total_items": 14
+        },
+        "unused-css-rules": {
+          "title": "Reduce unused CSS",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://static1.squarespace.com/static/versioned-site-css/69e7b73fa7a847762363eed5/51/5c5a519771c10ba3470d8101/69e7b740a7a847762363eee7/1826/site.css?nocustom=true",
+              "totalBytes": 112025,
+              "wastedBytes": 89696
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles__ltr.css",
+              "totalBytes": 42261,
+              "wastedBytes": 40740
+            },
+            {
+              "url": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1789043197505-DAFJD75BBCOTLJ5Z5UA4/static.css",
+              "totalBytes": 39856,
+              "wastedBytes": 36970
+            }
+          ],
+          "total_items": 3
+        },
+        "layout-shifts": {
+          "title": "Avoid large layout shifts",
+          "headings": [
+            "node",
+            "score"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.sqs-video-background-native__video-player > div.plyr > div.video-player__loading-screen > div.video-player__loading-indicator', 'boundingRect': {'bottom': 529, 'right': 728, 'height'",
+              "score": 0.002076020566793898
+            }
+          ],
+          "total_items": 1
+        },
+        "aria-allowed-role": {
+          "title": "Uses ARIA roles only on compatible elements",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<a tabindex=\"0\" href=\"#\" target=\"_self\" role=\"none\" id=\"weglot-language-de\" lang=\"de\" style=\"color: rgb(0, 0, 0); opacity: 0.4;\">', 'explanation': 'Fix any of the following:\\n  ARIA role "
+            },
+            {
+              "node": "{'nodeLabel': 'EN', 'boundingRect': {'top': 905, 'left': 1286, 'bottom': 925, 'width': 19, 'right': 1305, 'height': 20}, 'snippet': '<a tabindex=\"0\" href=\"#\" target=\"_self\" role=\"none\" id=\"weglot-lang"
+            }
+          ],
+          "total_items": 2
+        },
+        "link-name": {
+          "title": "Links do not have a discernible name",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<a href=\"tel:+27792683751\">', 'boundingRect': {'left': 381, 'height': 23, 'right': 381, 'top': 6009, 'bottom': 6032, 'width': 0}, 'lhId': '1-8-A', 'nodeLabel': '\\n', 'explanation': 'Fix a"
+            }
+          ],
+          "total_items": 1
+        },
+        "font-display-insight": {
+          "title": "Font display",
+          "headings": [
+            "url",
+            "wastedMs"
+          ],
+          "items": [
+            {
+              "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+              "wastedMs": 5
+            }
+          ],
+          "total_items": 1
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://www.gstatic.com",
+              "serverResponseTime": 5
+            },
+            {
+              "origin": "https://www.kinderhilfekapstadt.com",
+              "serverResponseTime": 1
+            },
+            {
+              "origin": "https://assets.squarespace.com",
+              "serverResponseTime": 1
+            },
+            {
+              "origin": "https://definitions.sqspcdn.com",
+              "serverResponseTime": 1
+            },
+            {
+              "origin": "https://static1.squarespace.com",
+              "serverResponseTime": 1
+            }
+          ],
+          "total_items": 13
+        },
+        "bootup-time": {
+          "title": "Reduce JavaScript execution time",
+          "headings": [
+            "url",
+            "total",
+            "scripting",
+            "scriptParseCompile"
+          ],
+          "items": [
+            {
+              "url": "https://www.kinderhilfekapstadt.com/",
+              "total": 914.3200000000028,
+              "scripting": 7.889999999999986,
+              "scriptParseCompile": 5.025999999999996
+            },
+            {
+              "url": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+              "total": 678.9239999999995,
+              "scripting": 307.3619999999996,
+              "scriptParseCompile": 204.94
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/21079-0990590eb5ffcec9-min.de-DE.js",
+              "total": 385.48999999999955,
+              "scripting": 302.5989999999996,
+              "scriptParseCompile": 66.299
+            },
+            {
+              "url": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js",
+              "total": 372.55799999999965,
+              "scripting": 256.47899999999964,
+              "scriptParseCompile": 82.955
+            },
+            {
+              "url": "Unattributable",
+              "total": 211.76899999999657,
+              "scripting": 8.709999999999999,
+              "scriptParseCompile": 0
+            }
+          ],
+          "total_items": 11
+        },
+        "valid-source-maps": {
+          "title": "Page has valid source maps",
+          "headings": [
+            "scriptUrl",
+            "sourceMapUrl"
+          ],
+          "items": [
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/video-background-native.8b6f9358b461fc0c3f1b.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/d0bf8022f822ca77523b19e461147081/scripts/video-background-native.8b6f9358b461fc0c3f1b.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/user-items-list-carousel.bb92046e1041e4a78dd6.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/fd0ce3088860fd2c4f01b2575ddfcf02/scripts/user-items-list-carousel.bb92046e1041e4a78dd6.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/23bb6e7991cba4a5b36194776633d6b7/scripts/site-bundle.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/floating-cart.333bd5aee1885e7af603.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/ad4b59f7b03ef151a5be6b26943e7aa7/scripts/floating-cart.333bd5aee1885e7af603.js.map"
+            },
+            {
+              "scriptUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/7056.57868aba90d9d9f6c5e7.js",
+              "sourceMapUrl": "https://sourcemaps.squarespace.net/new-bedford-framework/sourcemaps/8386cd96d287b9fd514b7304abe46f3e/scripts/7056.57868aba90d9d9f6c5e7.js.map"
+            }
+          ],
+          "total_items": 37
+        },
+        "legacy-javascript-insight": {
+          "title": "Legacy JavaScript",
+          "headings": [
+            "url",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://assets.squarespace.com/@sqs/polyfiller/1.6/modern.js",
+              "wastedBytes": 30668
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/39188.js",
+              "wastedBytes": 21451
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/64023.js",
+              "wastedBytes": 14147
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/39882.js",
+              "wastedBytes": 13507
+            },
+            {
+              "url": "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/f336fc9a-f363-4ee0-b3b1-175df66233f3_908/image-effect-refracted-lines.js",
+              "wastedBytes": 12910
+            }
+          ],
+          "total_items": 8
+        },
+        "third-parties-insight": {
+          "title": "3rd parties",
+          "headings": [
+            "entity",
+            "transferSize",
+            "mainThreadTime"
+          ],
+          "items": [
+            {
+              "entity": "Squarespace",
+              "transferSize": 1476567,
+              "mainThreadTime": 1044.118999004364
+            },
+            {
+              "entity": "Google CDN",
+              "transferSize": 755228,
+              "mainThreadTime": 395.457999587059
+            },
+            {
+              "entity": "weglot.com",
+              "transferSize": 112860,
+              "mainThreadTime": 103.33800256252289
+            },
+            {
+              "entity": "Other Google APIs/SDKs",
+              "transferSize": 31474,
+              "mainThreadTime": 56.92699992656708
+            },
+            {
+              "entity": "sqspcdn.com",
+              "transferSize": 103272,
+              "mainThreadTime": 25.100000500679016
+            }
+          ],
+          "total_items": 9
+        },
+        "unsized-images": {
+          "title": "Image elements do not have explicit `width` and `height`",
+          "headings": [
+            "node",
+            "url"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.header-title > div.header-title-logo > a.preFade > img', 'path': '1,HTML,1,BODY,0,DIV,1,HEADER,2,DIV,4,DIV,2,DIV,2,DIV,1,DIV,0,DIV,0,A,0,IMG', 'nodeLabel': 'The Kinder Hilfe Kapstadt",
+              "url": "https://images.squarespace-cdn.com/content/v1/69e7b73fa7a847762363eed5/f1269460-b875-48bf-9d0a-5092446f067f/KKT_LOGO_v7%404x.png?format=1500w"
+            }
+          ],
+          "total_items": 1
+        },
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/ua-client-hints",
+              "displayStatus": "{'status': 'limited', 'type': 'baseline-status', 'displayString': 'Limited Availability'}",
+              "source": "https://www.kinderhilfekapstadt.com/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/sizes-auto",
+              "displayStatus": "{'type': 'baseline-status', 'status': 'limited', 'displayString': 'Limited Availability'}",
+              "source": "https://www.kinderhilfekapstadt.com/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/long-animation-frames",
+              "displayStatus": "{'displayString': 'Limited Availability', 'status': 'limited', 'type': 'baseline-status'}",
+              "source": "https://assets.squarespace.com/universal/scripts-compressed/performance-5d56b04bdc07dc09-min.de-DE.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/beforeunload",
+              "displayStatus": "{'status': 'limited', 'type': 'baseline-status', 'displayString': 'Limited Availability'}",
+              "source": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.f423a4d017f36c2b6c2571880e877ac5.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/canvas-2d-alpha",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Limited Availability', 'status': 'limited'}",
+              "source": "https://assets.squarespace.com/universal/scripts-compressed/common-6fff60d2fca5161f-min.de-DE.js"
+            }
+          ],
+          "total_items": 51
+        },
+        "presentation-role-conflict": {
+          "title": "Elements with `role=\"none\"` or `role=\"presentation\"` have conflicts",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div.weglot_switcher > div.wg-languages-list > div.language-option > a#weglot-language-de', 'type': 'node', 'snippet': '<a tabindex=\"0\" href=\"#\" target=\"_self\" role=\"none\" id=\"weglot-lang"
+            },
+            {
+              "node": "{'type': 'node', 'selector': 'div.weglot_switcher > div.wg-languages-list > div.language-option > a#weglot-language-en', 'path': '1,HTML,1,BODY,4,DIV,0,DIV,0,DIV,1,DIV,0,A', 'explanation': 'Fix all of"
+            }
+          ],
+          "total_items": 2
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'path': '1,HTML,0,HEAD,4,META', 'selector': 'head > meta', 'type': 'node', 'lhId': 'page-55-META', 'nodeLabel': 'head > meta', 'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-s"
+            }
+          ],
+          "total_items": 1
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 96,
+              "transferSize": 3225718
+            },
+            {
+              "label": "Script",
+              "requestCount": 62,
+              "transferSize": 2240851
+            },
+            {
+              "label": "Other",
+              "requestCount": 11,
+              "transferSize": 370243
+            },
+            {
+              "label": "Image",
+              "requestCount": 4,
+              "transferSize": 222237
+            },
+            {
+              "label": "Stylesheet",
+              "requestCount": 14,
+              "transferSize": 221353
+            }
+          ],
+          "total_items": 9
+        }
+      },
+      "analysis_timestamp": "2026-09-20T08:21:59.808Z",
+      "error": null
+    }
+  },
+  "crux": {
+    "target": "https://www.kinderhilfekapstadt.com/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "No CrUX data for this origin. The site likely has insufficient Chrome traffic volume for eligibility."
+  },
+  "error": null
+}
