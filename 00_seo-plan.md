@@ -18,6 +18,7 @@ Vorlage: Traffic-Playbook aus `Claude-SEO.md` (Obsidian-Vault, `04_Ressourcen/AI
 - **Sprache:** alle Reports/Audits auf Deutsch
 - **Python:** immer `~/.claude/skills/seo/.venv/bin/python` (System-Python hat kein `requests`)
 - Neue Dateien nach dem Erstellen hier unter der jeweiligen Phase verlinken
+- **👥 = Aufgabe für Mitarbeitende** (Inhalte in Squarespace). Alles ohne 👥 erledigt Haui. Einstieg für Mitarbeitende: [README.md](README.md)
 
 ## Übersicht
 
@@ -55,15 +56,15 @@ Einmalig. Ergebnis: Credential-Tier 1 (API-Key + Service Account mit GSC-Zugriff
 - [x] `/seo drift baseline https://www.kinderhilfekapstadt.com/` — Baseline #1, 2026-09-20 09:07 UTC
 
 **Fixes — Critical**
-- [ ] Meta-Descriptions + SEO-Titel eintragen (Audit #1, #3) → Texte in [phase-0_report-pagespeed](phase-0_report-pagespeed-2026-09-20.md); Pflicht: `/`, `/ueberuns`, `/spenden`
-- [ ] Eigenes H1 auf 15 Seiten setzen (Audit #2)
-- [ ] Seite „Transparenz / Jahresbericht" veröffentlichen (Audit #7)
+- [ ] 👥 Meta-Descriptions + SEO-Titel eintragen (Audit #1, #3) → Texte in [phase-0_report-pagespeed](phase-0_report-pagespeed-2026-09-20.md); Pflicht: `/`, `/ueberuns`, `/spenden`
+- [ ] 👥 Eigenes H1 auf 15 Seiten setzen (Audit #2)
+- [ ] 👥 Seite „Transparenz / Jahresbericht" veröffentlichen (Audit #7)
 
 **Fixes — High**
 - [ ] NGO- + Breadcrumb-Schema per Code-Injection einfügen (Audit #5) → Code im Audit unter „Zum direkten Einfügen"
-- [ ] „Spenden"-Button im Mobile-Header (Audit #9)
-- [ ] `/spenden`: drei Rechtsträger erklären, Bankdaten nach oben, „Standart" → „Standard" (Audit #6)
-- [ ] Wirkungsfakten auf den Projektseiten, 500+ Wörter (Audit #10)
+- [ ] 👥 „Spenden"-Button im Mobile-Header (Audit #9)
+- [ ] 👥 `/spenden`: drei Rechtsträger erklären, Bankdaten nach oben, „Standart" → „Standard" (Audit #6)
+- [ ] 👥 Wirkungsfakten auf den Projektseiten, 500+ Wörter (Audit #10)
 - [ ] Englisch-Entscheidung Weglot: Subdirectory mit hreflang **oder** `auto_switch` aus (Audit #11)
 - [ ] Startseiten-Video ersetzen, reCAPTCHA von der Startseite entfernen → gehört inhaltlich zu Phase 2
 
